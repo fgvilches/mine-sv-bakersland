@@ -15,7 +15,7 @@
 	distance = 32.0
 	#The port of the voice chat server
 	#Range: 0 ~ 65535
-	port = 24454
+	port = 25565
 	#The maximum size in bytes in a voice packet
 	#Set this to a lower value if your voice packets don't arrive
 	#Range: 256 ~ 10000
