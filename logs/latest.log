@@ -1,2 +1,306 @@
-[23Aug2021 21:25:20.010] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.2, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge]
-[23Aug2021 21:25:20.014] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 16.0.2 by Oracle Corporation
+[24Aug2021 00:30:54.620] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.2, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge]
+[24Aug2021 00:30:54.624] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_51 by Oracle Corporation
+[24Aug2021 00:30:54.636] [main/WARN] [cpw.mods.modlauncher.SecureJarHandler/]: LEGACY JDK DETECTED, SECURED JAR HANDLING DISABLED
+[24Aug2021 00:30:54.822] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[24Aug2021 00:30:54.854] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/Administrator/Documents/GitHub/mine-sv-bakersland/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
+[24Aug2021 00:30:54.890] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\Users\Administrator\Documents\GitHub\mine-sv-bakersland\config\fml.toml is not correct. Correcting
+[24Aug2021 00:30:54.895] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[24Aug2021 00:30:55.920] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[24Aug2021 00:31:02.932] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.2, for MC 1.16.5 with MCP 20210115.111550
+[24Aug2021 00:31:02.933] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.2 Initialized
+[24Aug2021 00:31:03.047] [modloading-worker-7/INFO] [team.chisel.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[24Aug2021 00:31:03.652] [modloading-worker-6/INFO] [creativewirelesstransmitter/]: Loading config: C:\Users\Administrator\Documents\GitHub\mine-sv-bakersland\config\creative_wireless_transmitter-client.toml
+[24Aug2021 00:31:03.653] [modloading-worker-6/INFO] [creativewirelesstransmitter/]: Built config: C:\Users\Administrator\Documents\GitHub\mine-sv-bakersland\config\creative_wireless_transmitter-client.toml
+[24Aug2021 00:31:03.656] [modloading-worker-6/INFO] [creativewirelesstransmitter/]: Loaded config: C:\Users\Administrator\Documents\GitHub\mine-sv-bakersland\config\creative_wireless_transmitter-client.toml
+[24Aug2021 00:31:03.657] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Administrator\Documents\GitHub\mine-sv-bakersland\config\creative_wireless_transmitter-client.toml is not correct. Correcting
+[24Aug2021 00:31:03.659] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key creativeWirelessTransmitterEnergyConsume was corrected from null to its default, 0. 
+[24Aug2021 00:31:03.715] [modloading-worker-5/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Found 0 RS API injection points
+[24Aug2021 00:31:06.561] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Administrator\Documents\GitHub\mine-sv-bakersland\config\forge-common.toml is not correct. Correcting
+[24Aug2021 00:31:06.562] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:06.563] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.defaultWorldType was corrected from null to its default, default. 
+[24Aug2021 00:31:06.576] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Administrator\Documents\GitHub\mine-sv-bakersland\config\chiselsandbits-common.toml is not correct. Correcting
+[24Aug2021 00:31:06.580] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:06.580] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.help was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:06.580] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.help.common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:06.580] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.help.common.help was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:06.580] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.help.common.help.enabled was corrected from null to its default, true. 
+[24Aug2021 00:31:06.581] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:06.581] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.common.performance was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:06.581] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.common.performance.common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:06.581] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.common.performance.common.performance was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:06.581] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.common.performance.common.performance.collisions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:06.581] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.common.performance.common.performance.collisions.cache was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:06.582] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.common.performance.common.performance.collisions.cache.size was corrected from null to its default, 10000. 
+[24Aug2021 00:31:06.673] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://maxhenkel.de/update/voicechat.json
+[24Aug2021 00:31:09.520] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.16.5-1.7.5 Target: 1.16.5-1.7.7
+[24Aug2021 00:31:09.522] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[24Aug2021 00:31:10.157] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.2 Target: null
+[24Aug2021 00:31:10.157] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refinedstorage] Starting version check at https://refinedmods.com/refined-storage/update.json
+[24Aug2021 00:31:11.361] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refinedstorage] Found status: UP_TO_DATE Current: 1.9.15 Target: null
+[24Aug2021 00:31:11.361] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[24Aug2021 00:31:12.046] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: v1.8.23 Target: null
+[24Aug2021 00:31:13.009] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[24Aug2021 00:31:14.013] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[24Aug2021 00:31:14.015] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[24Aug2021 00:31:14.016] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[24Aug2021 00:31:14.018] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[24Aug2021 00:31:14.020] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[24Aug2021 00:31:14.044] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, bukkit, voicechat-forge-1.16.5-1.7.5.jar, forge-1.16.5-36.2.2-universal.jar, chiseled0.4.3.jar, chiselsandbits-0.3.4-RELEASE.jar, refinedstorage-1.9.15.jar, creativewirelesstransmitter-1.16x-1.11.jar, Chisel-MC1.16.5-2.0.1-alpha.4.jar, CTM-MC1.16.1-1.1.2.6.jar, [1.16.5]+SecurityCraft+v1.8.23.jar
+[24Aug2021 00:31:15.815] [Worker-Main-12/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[24Aug2021 00:31:17.070] [Worker-Main-12/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1786 advancements
+[24Aug2021 00:31:18.659] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[24Aug2021 00:31:18.661] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[24Aug2021 00:31:18.661] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[24Aug2021 00:31:18.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[24Aug2021 00:31:18.666] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_51]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_51]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_51]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_51]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_51]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_51]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:89) [?:?]
+[24Aug2021 00:31:18.728] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[24Aug2021 00:31:18.735] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[24Aug2021 00:31:19.711] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[24Aug2021 00:31:19.712] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[24Aug2021 00:31:19.712] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[24Aug2021 00:31:19.712] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[24Aug2021 00:31:19.746] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\voicechat-server.toml is not correct. Correcting
+[24Aug2021 00:31:19.747] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key voice_chat was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.747] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key voice_chat.port was corrected from null to its default, 24454. 
+[24Aug2021 00:31:19.748] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key voice_chat.bind_address was corrected from null to its default, 0.0.0.0. 
+[24Aug2021 00:31:19.748] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key voice_chat.distance was corrected from null to its default, 32.0. 
+[24Aug2021 00:31:19.748] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key voice_chat.fade_distance was corrected from null to its default, 16.0. 
+[24Aug2021 00:31:19.749] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key voice_chat.codec was corrected from null to its default, VOIP. 
+[24Aug2021 00:31:19.749] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key voice_chat.mtu_size was corrected from null to its default, 1024. 
+[24Aug2021 00:31:19.749] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key voice_chat.keep_alive was corrected from null to its default, 1000. 
+[24Aug2021 00:31:19.749] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key voice_chat.enable_groups was corrected from null to its default, true. 
+[24Aug2021 00:31:19.749] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key voice_chat.open_groups was corrected from null to its default, false. 
+[24Aug2021 00:31:19.750] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key voice_chat.voice_host was corrected from null to its default, . 
+[24Aug2021 00:31:19.750] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key voice_chat.allow_recording was corrected from null to its default, true. 
+[24Aug2021 00:31:19.755] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\refinedstorage-server.toml is not correct. Correcting
+[24Aug2021 00:31:19.756] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key upgrades was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.756] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key upgrades.rangeUpgradeUsage was corrected from null to its default, 8. 
+[24Aug2021 00:31:19.757] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key upgrades.speedUpgradeUsage was corrected from null to its default, 2. 
+[24Aug2021 00:31:19.757] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key upgrades.craftingUpgradeUsage was corrected from null to its default, 5. 
+[24Aug2021 00:31:19.757] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key upgrades.stackUpgradeUsage was corrected from null to its default, 12. 
+[24Aug2021 00:31:19.757] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key upgrades.silkTouchUpgradeUsage was corrected from null to its default, 15. 
+[24Aug2021 00:31:19.757] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key upgrades.fortune1UpgradeUsage was corrected from null to its default, 10. 
+[24Aug2021 00:31:19.758] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key upgrades.fortune2UpgradeUsage was corrected from null to its default, 12. 
+[24Aug2021 00:31:19.758] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key upgrades.fortune3UpgradeUsage was corrected from null to its default, 14. 
+[24Aug2021 00:31:19.758] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key upgrades.regulatorUpgradeUsage was corrected from null to its default, 15. 
+[24Aug2021 00:31:19.760] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key controller was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.760] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key controller.useEnergy was corrected from null to its default, true. 
+[24Aug2021 00:31:19.760] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key controller.capacity was corrected from null to its default, 32000. 
+[24Aug2021 00:31:19.761] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key controller.baseUsage was corrected from null to its default, 0. 
+[24Aug2021 00:31:19.761] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key controller.maxTransfer was corrected from null to its default, 2147483647. 
+[24Aug2021 00:31:19.762] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cable was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.762] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cable.usage was corrected from null to its default, 0. 
+[24Aug2021 00:31:19.763] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key grid was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.764] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key grid.gridUsage was corrected from null to its default, 2. 
+[24Aug2021 00:31:19.764] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key grid.craftingGridUsage was corrected from null to its default, 4. 
+[24Aug2021 00:31:19.764] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key grid.patternGridUsage was corrected from null to its default, 4. 
+[24Aug2021 00:31:19.764] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key grid.fluidGridUsage was corrected from null to its default, 2. 
+[24Aug2021 00:31:19.766] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key diskDrive was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.766] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key diskDrive.usage was corrected from null to its default, 0. 
+[24Aug2021 00:31:19.767] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key diskDrive.diskUsage was corrected from null to its default, 1. 
+[24Aug2021 00:31:19.768] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storageBlock was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.768] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storageBlock.oneKUsage was corrected from null to its default, 2. 
+[24Aug2021 00:31:19.768] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storageBlock.fourKUsage was corrected from null to its default, 4. 
+[24Aug2021 00:31:19.768] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storageBlock.sixteenKUsage was corrected from null to its default, 6. 
+[24Aug2021 00:31:19.768] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storageBlock.sixtyFourKUsage was corrected from null to its default, 8. 
+[24Aug2021 00:31:19.769] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storageBlock.creativeUsage was corrected from null to its default, 10. 
+[24Aug2021 00:31:19.770] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluidStorageBlock was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.770] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluidStorageBlock.sixtyFourKUsage was corrected from null to its default, 2. 
+[24Aug2021 00:31:19.770] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluidStorageBlock.twoHundredFiftySixKUsage was corrected from null to its default, 4. 
+[24Aug2021 00:31:19.771] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluidStorageBlock.thousandTwentyFourKUsage was corrected from null to its default, 6. 
+[24Aug2021 00:31:19.771] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluidStorageBlock.fourThousandNinetySixKUsage was corrected from null to its default, 8. 
+[24Aug2021 00:31:19.772] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluidStorageBlock.creativeUsage was corrected from null to its default, 10. 
+[24Aug2021 00:31:19.773] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key externalStorage was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.774] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key externalStorage.usage was corrected from null to its default, 6. 
+[24Aug2021 00:31:19.775] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key importer was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.776] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key importer.usage was corrected from null to its default, 1. 
+[24Aug2021 00:31:19.777] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exporter was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.777] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exporter.usage was corrected from null to its default, 1. 
+[24Aug2021 00:31:19.779] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key networkReceiver was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.780] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key networkReceiver.usage was corrected from null to its default, 0. 
+[24Aug2021 00:31:19.781] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key networkTransmitter was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.782] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key networkTransmitter.usage was corrected from null to its default, 64. 
+[24Aug2021 00:31:19.783] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key relay was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.783] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key relay.usage was corrected from null to its default, 1. 
+[24Aug2021 00:31:19.784] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key detector was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.785] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key detector.usage was corrected from null to its default, 2. 
+[24Aug2021 00:31:19.785] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key securityManager was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.786] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key securityManager.usage was corrected from null to its default, 4. 
+[24Aug2021 00:31:19.786] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key securityManager.usagePerCard was corrected from null to its default, 10. 
+[24Aug2021 00:31:19.787] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interface was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.787] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interface.usage was corrected from null to its default, 2. 
+[24Aug2021 00:31:19.789] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluidInterface was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.789] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluidInterface.usage was corrected from null to its default, 2. 
+[24Aug2021 00:31:19.790] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessTransmitter was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.790] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessTransmitter.usage was corrected from null to its default, 8. 
+[24Aug2021 00:31:19.790] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessTransmitter.baseRange was corrected from null to its default, 16. 
+[24Aug2021 00:31:19.791] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessTransmitter.rangePerUpgrade was corrected from null to its default, 8. 
+[24Aug2021 00:31:19.792] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storageMonitor was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.792] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storageMonitor.usage was corrected from null to its default, 3. 
+[24Aug2021 00:31:19.793] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessGrid was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.794] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessGrid.useEnergy was corrected from null to its default, true. 
+[24Aug2021 00:31:19.794] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessGrid.capacity was corrected from null to its default, 3200. 
+[24Aug2021 00:31:19.794] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessGrid.openUsage was corrected from null to its default, 30. 
+[24Aug2021 00:31:19.795] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessGrid.extractUsage was corrected from null to its default, 5. 
+[24Aug2021 00:31:19.795] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessGrid.insertUsage was corrected from null to its default, 5. 
+[24Aug2021 00:31:19.797] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessFluidGrid was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.797] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessFluidGrid.useEnergy was corrected from null to its default, true. 
+[24Aug2021 00:31:19.797] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessFluidGrid.capacity was corrected from null to its default, 3200. 
+[24Aug2021 00:31:19.797] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessFluidGrid.openUsage was corrected from null to its default, 30. 
+[24Aug2021 00:31:19.798] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessFluidGrid.extractUsage was corrected from null to its default, 5. 
+[24Aug2021 00:31:19.798] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessFluidGrid.insertUsage was corrected from null to its default, 5. 
+[24Aug2021 00:31:19.799] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key constructor was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.799] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key constructor.usage was corrected from null to its default, 3. 
+[24Aug2021 00:31:19.800] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key destructor was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.801] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key destructor.usage was corrected from null to its default, 3. 
+[24Aug2021 00:31:19.802] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key diskManipulator was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.802] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key diskManipulator.usage was corrected from null to its default, 4. 
+[24Aug2021 00:31:19.803] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key portableGrid was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.804] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key portableGrid.useEnergy was corrected from null to its default, true. 
+[24Aug2021 00:31:19.804] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key portableGrid.capacity was corrected from null to its default, 3200. 
+[24Aug2021 00:31:19.804] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key portableGrid.openUsage was corrected from null to its default, 30. 
+[24Aug2021 00:31:19.804] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key portableGrid.extractUsage was corrected from null to its default, 5. 
+[24Aug2021 00:31:19.804] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key portableGrid.insertUsage was corrected from null to its default, 5. 
+[24Aug2021 00:31:19.806] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crafter was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.806] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crafter.usage was corrected from null to its default, 4. 
+[24Aug2021 00:31:19.807] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crafter.patternUsage was corrected from null to its default, 1. 
+[24Aug2021 00:31:19.808] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crafterManager was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.808] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crafterManager.usage was corrected from null to its default, 8. 
+[24Aug2021 00:31:19.809] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key craftingMonitor was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.810] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key craftingMonitor.usage was corrected from null to its default, 8. 
+[24Aug2021 00:31:19.811] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessCraftingMonitor was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.811] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessCraftingMonitor.useEnergy was corrected from null to its default, true. 
+[24Aug2021 00:31:19.811] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessCraftingMonitor.capacity was corrected from null to its default, 3200. 
+[24Aug2021 00:31:19.812] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessCraftingMonitor.openUsage was corrected from null to its default, 30. 
+[24Aug2021 00:31:19.812] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessCraftingMonitor.cancelUsage was corrected from null to its default, 5. 
+[24Aug2021 00:31:19.812] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessCraftingMonitor.cancelAllUsage was corrected from null to its default, 10. 
+[24Aug2021 00:31:19.813] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key autocrafting was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.814] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key autocrafting.calculationTimeoutMs was corrected from null to its default, 5000. 
+[24Aug2021 00:31:19.819] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\forge-server.toml is not correct. Correcting
+[24Aug2021 00:31:19.820] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.820] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[24Aug2021 00:31:19.820] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to its default, false. 
+[24Aug2021 00:31:19.820] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[24Aug2021 00:31:19.821] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[24Aug2021 00:31:19.821] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[24Aug2021 00:31:19.821] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to its default, true. 
+[24Aug2021 00:31:19.821] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to its default, false. 
+[24Aug2021 00:31:19.821] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to its default, 0. 
+[24Aug2021 00:31:19.821] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
+[24Aug2021 00:31:19.822] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[24Aug2021 00:31:19.827] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\securitycraft-server.toml is not correct. Correcting
+[24Aug2021 00:31:19.827] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowCodebreakerItem was corrected from null to its default, true. 
+[24Aug2021 00:31:19.828] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowAdminTool was corrected from null to its default, false. 
+[24Aug2021 00:31:19.830] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shouldSpawnFire was corrected from null to its default, true. 
+[24Aug2021 00:31:19.831] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ableToBreakMines was corrected from null to its default, true. 
+[24Aug2021 00:31:19.832] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key smallerMineExplosion was corrected from null to its default, false. 
+[24Aug2021 00:31:19.833] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mineExplodesWhenInCreative was corrected from null to its default, true. 
+[24Aug2021 00:31:19.834] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mineExplosionsBreakBlocks was corrected from null to its default, true. 
+[24Aug2021 00:31:19.836] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key laserBlockRange was corrected from null to its default, 5. 
+[24Aug2021 00:31:19.838] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryScannerRange was corrected from null to its default, 2. 
+[24Aug2021 00:31:19.840] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key maxAlarmRange was corrected from null to its default, 100. 
+[24Aug2021 00:31:19.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowBlockClaim was corrected from null to its default, false. 
+[24Aug2021 00:31:19.844] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key respect_invisibility was corrected from null to its default, false. 
+[24Aug2021 00:31:19.845] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key reinforced_block_tint was corrected from null to its default, true. 
+[24Aug2021 00:31:19.847] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key force_reinforced_block_tint was corrected from null to its default, false. 
+[24Aug2021 00:31:19.848] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key retinalScannerFace was corrected from null to its default, true. 
+[24Aug2021 00:31:19.852] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\chiselsandbits-server.toml is not correct. Correcting
+[24Aug2021 00:31:19.853] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.853] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.troubleshooting was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.854] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.troubleshooting.server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.854] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.troubleshooting.server.troubleshooting was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.854] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.troubleshooting.server.troubleshooting.logging was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.854] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.troubleshooting.server.troubleshooting.logging.tile-errors was corrected from null to its default, true. 
+[24Aug2021 00:31:19.854] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.troubleshooting.server.troubleshooting.logging.eligibility-errors was corrected from null to its default, true. 
+[24Aug2021 00:31:19.855] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.855] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.855] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.855] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.855] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.random-ticking-blocks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.855] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.random-ticking-blocks.blacklisted was corrected from null to its default, false. 
+[24Aug2021 00:31:19.856] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.tools was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.857] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.tools.damage was corrected from null to its default, true. 
+[24Aug2021 00:31:19.858] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.tools.harvest-levels was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.858] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.tools.harvest-levels.enabled was corrected from null to its default, true. 
+[24Aug2021 00:31:19.858] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.chisel-tool was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.858] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.chisel-tool.harvest-check was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.859] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.chisel-tool.harvest-check.enabled was corrected from null to its default, false. 
+[24Aug2021 00:31:19.859] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.chisel-tool.harvest-check.tools was corrected from null to its default, . 
+[24Aug2021 00:31:19.859] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.bits was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.859] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.bits.act-as-light-source was corrected from null to its default, true. 
+[24Aug2021 00:31:19.860] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.bits.light-percentage was corrected from null to its default, 6.25. 
+[24Aug2021 00:31:19.860] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.compatibility-mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.860] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.compatibility-mode.enabled was corrected from null to its default, false. 
+[24Aug2021 00:31:19.860] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.bag was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.860] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.bag.stack-size was corrected from null to its default, 512. 
+[24Aug2021 00:31:19.860] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.chisel-uses was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.861] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.chisel-uses.stone was corrected from null to its default, 12288. 
+[24Aug2021 00:31:19.861] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.chisel-uses.iron was corrected from null to its default, 110592. 
+[24Aug2021 00:31:19.861] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.chisel-uses.diamond was corrected from null to its default, 995328. 
+[24Aug2021 00:31:19.861] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.chisel-uses.netherite was corrected from null to its default, 8957952. 
+[24Aug2021 00:31:19.861] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.chisel-uses.gold was corrected from null to its default, 1024. 
+[24Aug2021 00:31:19.861] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.wrench-uses was corrected from null to its default, 1888. 
+[24Aug2021 00:31:19.861] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.saw-uses was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.862] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.saw-uses.stone was corrected from null to its default, 512. 
+[24Aug2021 00:31:19.862] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.saw-uses.gold was corrected from null to its default, 500. 
+[24Aug2021 00:31:19.862] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.saw-uses.iron was corrected from null to its default, 2048. 
+[24Aug2021 00:31:19.862] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.saw-uses.diamond was corrected from null to its default, 8192. 
+[24Aug2021 00:31:19.862] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.saw-uses.netherite was corrected from null to its default, 32768. 
+[24Aug2021 00:31:19.863] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.full-block-crafting was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.863] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.full-block-crafting.enabled was corrected from null to its default, true. 
+[24Aug2021 00:31:19.863] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.bag-space was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.863] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.bag-space.required was corrected from null to its default, true. 
+[24Aug2021 00:31:19.863] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.bag-space.void-excess was corrected from null to its default, true. 
+[24Aug2021 00:31:19.864] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.clipboard was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.864] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.clipboard.size was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.864] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.clipboard.size.creative was corrected from null to its default, 10. 
+[24Aug2021 00:31:19.865] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.revertible was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.866] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.balancing.server.balancing.revertible.blocks was corrected from null to its default, [*]. 
+[24Aug2021 00:31:19.866] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.866] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.server.performance was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.866] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.server.performance.server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.866] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.server.performance.server.performance was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.867] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.server.performance.server.performance.memory was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.867] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.server.performance.server.performance.memory.low-mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2021 00:31:19.867] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.server.server.performance.server.performance.memory.low-mode.enabled was corrected from null to its default, false. 
+[24Aug2021 00:31:19.891] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[24Aug2021 00:31:20.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[24Aug2021 00:31:20.751] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[24Aug2021 00:31:20.752] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[24Aug2021 00:31:21.074] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 46%
+[24Aug2021 00:31:22.783] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[24Aug2021 00:31:22.785] [Worker-Main-13/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[24Aug2021 00:31:22.787] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[24Aug2021 00:31:23.046] [Worker-Main-14/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[24Aug2021 00:31:23.545] [Worker-Main-15/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[24Aug2021 00:31:24.056] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 84%
+[24Aug2021 00:31:24.546] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[24Aug2021 00:31:24.946] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 4901 ms
+[24Aug2021 00:31:24.947] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.207s)! For help, type "help"
+[24Aug2021 00:31:24.967] [VoiceChatServerThread/INFO] [voicechat/]: Server started at port 24454
+[24Aug2021 00:31:33.013] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made Shift a server operator
+[24Aug2021 00:31:39.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[24Aug2021 00:31:39.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[24Aug2021 00:31:39.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[24Aug2021 00:31:39.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[24Aug2021 00:31:40.234] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[24Aug2021 00:31:40.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[24Aug2021 00:31:40.236] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[24Aug2021 00:31:40.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[24Aug2021 00:31:40.237] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[24Aug2021 00:31:40.259] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[24Aug2021 00:31:40.263] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[24Aug2021 00:31:40.264] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
