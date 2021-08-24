@@ -1,8 +1,8 @@
 [
   {
     "uuid": "b6e5f65a-35fd-4768-b8ad-aaa1bb5269be",
-    "name": "Shift",
+    "name": "shift",
     "level": 4,
-    "bypassesPlayerLimit": false
+    "bypassesPlayerLimit": true
   }
 ]
