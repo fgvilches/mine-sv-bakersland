@@ -1,20 +1,19 @@
-[02:35:50] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02:35:50] [main/INFO]: Found new data pack file/bukkit, loading it automatically
-[02:35:51] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[02:35:51] [Worker-Main-13/INFO]: Loaded 7 recipes
-[02:35:53] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[02:35:53] [Server thread/INFO]: Loading properties
-[02:35:54] [Server thread/INFO]: This server is running CraftBukkit version 2991-Spigot-018b9a0-f3f3094 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[02:35:55] [Server thread/INFO]: Debug logging is disabled
-[02:35:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:35:55] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:35:55] [Server thread/INFO]: Default game type: SURVIVAL
-[02:35:55] [Server thread/INFO]: Generating keypair
-[02:35:55] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:35:55] [Server thread/INFO]: Using default channel type
-[02:35:57] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[02:36:00] [Server thread/WARN]: Legacy plugin Tiny_Essentials v2.2.1 does not specify an api-version.
-[02:36:00] [Server thread/ERROR]: Could not load 'plugins\EpicItems-1.3.jar' in folder 'plugins'
+[03:18:44] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:18:45] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[03:18:46] [Worker-Main-12/INFO]: Loaded 7 recipes
+[03:18:48] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[03:18:48] [Server thread/INFO]: Loading properties
+[03:18:49] [Server thread/INFO]: This server is running CraftBukkit version 2991-Spigot-018b9a0-f3f3094 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[03:18:49] [Server thread/INFO]: Debug logging is disabled
+[03:18:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:18:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:18:49] [Server thread/INFO]: Default game type: SURVIVAL
+[03:18:49] [Server thread/INFO]: Generating keypair
+[03:18:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:18:49] [Server thread/INFO]: Using default channel type
+[03:18:51] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[03:18:54] [Server thread/WARN]: Legacy plugin Tiny_Essentials v2.2.1 does not specify an api-version.
+[03:18:54] [Server thread/ERROR]: Could not load 'plugins\EpicItems-1.3.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.17
 	at org.bukkit.craftbukkit.v1_16_R3.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:304) ~[server.jar:2991-Spigot-018b9a0-f3f3094]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[server.jar:2991-Spigot-018b9a0-f3f3094]
@@ -24,325 +23,188 @@ org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.17
 	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:185) [server.jar:2991-Spigot-018b9a0-f3f3094]
 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:809) [server.jar:2991-Spigot-018b9a0-f3f3094]
 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:164) [server.jar:2991-Spigot-018b9a0-f3f3094]
-	at net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3195/1642939310.run(Unknown Source) [server.jar:2991-Spigot-018b9a0-f3f3094]
+	at net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3210/1515971318.run(Unknown Source) [server.jar:2991-Spigot-018b9a0-f3f3094]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_51]
-[02:36:00] [Server thread/WARN]: Legacy plugin Chiseler-Tool v1.0 does not specify an api-version.
-[02:36:00] [Server thread/INFO]: [BetterTeams] Loading BetterTeams v4.0.5
-[02:36:00] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
-[02:36:00] [Server thread/INFO]: [BetterTeams] File is up to date
-[02:36:00] [Server thread/INFO]: [SetHomes] Loading SetHomes v1.3.0
-[02:36:00] [Server thread/INFO]: [Tiny_Essentials] Loading Tiny_Essentials v2.2.1
-[02:36:00] [Server thread/INFO]: [Chiseler-Tool] Loading Chiseler-Tool v1.0
-[02:36:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:36:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:36:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:36:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:36:00] [Server thread/INFO]: Preparing level "Bakersland"
-[02:36:00] [Server thread/INFO]: -------- World Settings For [Bakersland] --------
-[02:36:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[02:36:00] [Server thread/INFO]: Mob Spawn Range: 6
-[02:36:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[02:36:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[02:36:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[02:36:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[02:36:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[02:36:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[02:36:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[02:36:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[02:36:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[02:36:00] [Server thread/INFO]: Potato Growth Modifier: 100%
-[02:36:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[02:36:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[02:36:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[02:36:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[02:36:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[02:36:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[02:36:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[02:36:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[02:36:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[02:36:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[02:36:00] [Server thread/INFO]: Max TNT Explosions: 100
-[02:36:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[02:36:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[02:36:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[02:36:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[02:36:00] [Server thread/INFO]: View Distance: 5
-[02:36:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[02:36:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[02:36:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[02:36:05] [Server thread/INFO]: -------- World Settings For [Bakersland_nether] --------
-[02:36:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[02:36:05] [Server thread/INFO]: Mob Spawn Range: 6
-[02:36:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[02:36:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Potato Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Vine Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[02:36:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[02:36:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[02:36:05] [Server thread/INFO]: Max TNT Explosions: 100
-[02:36:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[02:36:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[02:36:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[02:36:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[02:36:05] [Server thread/INFO]: View Distance: 5
-[02:36:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[02:36:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[02:36:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[02:36:05] [Server thread/WARN]: Unable to find spawn biome
-[02:36:05] [Server thread/INFO]: -------- World Settings For [Bakersland_the_end] --------
-[02:36:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[02:36:05] [Server thread/INFO]: Mob Spawn Range: 6
-[02:36:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[02:36:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Potato Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Vine Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[02:36:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[02:36:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[02:36:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[02:36:05] [Server thread/INFO]: Max TNT Explosions: 100
-[02:36:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[02:36:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[02:36:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[02:36:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[02:36:05] [Server thread/INFO]: View Distance: 5
-[02:36:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[02:36:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[02:36:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[02:36:06] [Server thread/WARN]: Unable to find spawn biome
-[02:36:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:36:06] [Worker-Main-16/INFO]: Preparing spawn area: 0%
-[02:36:06] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[02:36:07] [Worker-Main-8/INFO]: Preparing spawn area: 2%
-[02:36:07] [Worker-Main-14/INFO]: Preparing spawn area: 4%
-[02:36:08] [Worker-Main-15/INFO]: Preparing spawn area: 9%
-[02:36:08] [Worker-Main-10/INFO]: Preparing spawn area: 12%
-[02:36:09] [Worker-Main-8/INFO]: Preparing spawn area: 15%
-[02:36:09] [Worker-Main-10/INFO]: Preparing spawn area: 23%
-[02:36:10] [Worker-Main-16/INFO]: Preparing spawn area: 27%
-[02:36:10] [Worker-Main-8/INFO]: Preparing spawn area: 29%
-[02:36:11] [Worker-Main-9/INFO]: Preparing spawn area: 38%
-[02:36:11] [Worker-Main-10/INFO]: Preparing spawn area: 40%
-[02:36:12] [Worker-Main-12/INFO]: Preparing spawn area: 49%
-[02:36:12] [Worker-Main-15/INFO]: Preparing spawn area: 49%
-[02:36:13] [Worker-Main-8/INFO]: Preparing spawn area: 62%
-[02:36:13] [Worker-Main-10/INFO]: Preparing spawn area: 68%
-[02:36:14] [Worker-Main-16/INFO]: Preparing spawn area: 75%
-[02:36:14] [Worker-Main-9/INFO]: Preparing spawn area: 75%
-[02:36:15] [Worker-Main-14/INFO]: Preparing spawn area: 88%
-[02:36:15] [Worker-Main-9/INFO]: Preparing spawn area: 96%
-[02:36:15] [Server thread/INFO]: Time elapsed: 9677 ms
-[02:36:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:36:15] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[02:36:16] [Worker-Main-16/INFO]: Preparing spawn area: 4%
-[02:36:16] [Worker-Main-8/INFO]: Preparing spawn area: 12%
-[02:36:17] [Worker-Main-10/INFO]: Preparing spawn area: 22%
-[02:36:17] [Worker-Main-8/INFO]: Preparing spawn area: 30%
-[02:36:18] [Worker-Main-12/INFO]: Preparing spawn area: 38%
-[02:36:18] [Worker-Main-10/INFO]: Preparing spawn area: 50%
-[02:36:19] [Worker-Main-15/INFO]: Preparing spawn area: 56%
-[02:36:19] [Worker-Main-14/INFO]: Preparing spawn area: 68%
-[02:36:20] [Worker-Main-16/INFO]: Preparing spawn area: 77%
-[02:36:20] [Worker-Main-15/INFO]: Preparing spawn area: 85%
-[02:36:21] [Worker-Main-15/INFO]: Preparing spawn area: 96%
-[02:36:21] [Server thread/INFO]: Time elapsed: 5662 ms
-[02:36:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:36:21] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[02:36:22] [Worker-Main-10/INFO]: Preparing spawn area: 27%
-[02:36:22] [Worker-Main-8/INFO]: Preparing spawn area: 83%
-[02:36:22] [Server thread/INFO]: Time elapsed: 1124 ms
-[02:36:22] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.0.5
-[02:36:22] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
-[02:36:22] [Server thread/INFO]: [BetterTeams] File is up to date
-[02:36:22] [Server thread/INFO]: [BetterTeams] Converting storage type, this may take a while
-[02:36:22] [Server thread/INFO]: [BetterTeams] Backing up teams.yml file
-[02:36:22] [Server thread/INFO]: [BetterTeams] Loading team information
-[02:36:22] [Server thread/INFO]: [BetterTeams] Beginning convertion
-[02:36:22] [Server thread/INFO]: [BetterTeams] Convertion complete
-[02:36:22] [Server thread/INFO]: Starting rebuilding lookup tables
-[02:36:22] [Server thread/INFO]: Display team name config value: prefix
-[02:36:22] [Server thread/INFO]: Loading below name. Type: PREFIX
-[02:36:22] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@4a42a950
-[02:36:22] [Server thread/INFO]: [SetHomes] Enabling SetHomes v1.3.0
-[02:36:22] [Server thread/INFO]: [SetHomes] Luck perms was not found! Reverting to vault...
-[02:36:22] [Server thread/INFO]: [SetHomes] Vault was not found.
-[02:36:22] [Server thread/WARN]: [SetHomes] Could not connect to a permissions plugin! Config setting "max-homes" will be ignored!
-[02:36:22] [Server thread/INFO]: [Tiny_Essentials] Enabling Tiny_Essentials v2.2.1
-[02:36:22] [Server thread/INFO]: [Tiny_Essentials] Color:[rgb0x0800]TinyEssentials is created by Inwin1. Thank you for using my plugin, and enjoy :)
-[02:36:22] [Server thread/INFO]: [Chiseler-Tool] Enabling Chiseler-Tool v1.0
-[02:36:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:36:23] [Server thread/INFO]: Done (22.866s)! For help, type "help"
-[02:36:33] [Server thread/INFO]: Nothing changed. The player already is an operator
-[02:36:41] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[02:36:47] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[02:36:50] [Server thread/INFO]: --------- Help: Index ---------------------------
-[02:36:50] [Server thread/INFO]: Use /help [n] to get page n of help.
-[02:36:50] [Server thread/INFO]: Aliases: Lists command aliases
-[02:36:50] [Server thread/INFO]: Bukkit: All commands for Bukkit
-[02:36:50] [Server thread/INFO]: Minecraft: All commands for Minecraft
-[02:36:50] [Server thread/INFO]: SetHomes: All commands for SetHomes
-[02:36:50] [Server thread/INFO]: Tiny_Essentials: All commands for Tiny_Essentials
-[02:36:50] [Server thread/INFO]: /advancement: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /attribute: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /ban: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /ban-ip: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /banlist: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /blacklist: Blacklist of worlds to disallow home setting in
-[02:36:50] [Server thread/INFO]: /bossbar: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /broadcast: Broadcast message to the server.
-[02:36:50] [Server thread/INFO]: /clear: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /clearinventory: Clear inventory command.
-[02:36:50] [Server thread/INFO]: /clone: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /data: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /datapack: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /debug: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /delhome: Deletes a home from the list of players homes.
-[02:36:50] [Server thread/INFO]: /delhome-of: Gives a player the ability to delete a home from the list of any players home.
-[02:36:50] [Server thread/INFO]: /delwarp: Deleting the specified warp.
-[02:36:50] [Server thread/INFO]: /deop: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /difficulty: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /effect: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /enchant: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /enderchest: The enderchest command.
-[02:36:50] [Server thread/INFO]: /execute: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /experience: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /feed: Feeding yourself.
-[02:36:50] [Server thread/INFO]: /fill: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /fix: Plugin related to fixing items.
-[02:36:50] [Server thread/INFO]: /fly: Flying command.
-[02:36:50] [Server thread/INFO]: /forceload: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /freeze: Freezes the player given in the command after excecution!
-[02:36:50] [Server thread/INFO]: /function: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /gamemode: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /gamerule: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /give: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /gm: Gamemode command.
-[02:36:50] [Server thread/INFO]: /heal: Healing yourself.
-[02:36:50] [Server thread/INFO]: /help: Shows the help menu
-[02:36:50] [Server thread/INFO]: /home: Teleports a player to their home.
-[02:36:50] [Server thread/INFO]: /home-of: Teleports the player sending the command to any players home.
-[02:36:50] [Server thread/INFO]: /homes: Lists all of a players homes.
-[02:36:50] [Server thread/INFO]: /kick: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /kill: Kill command.
-[02:36:50] [Server thread/INFO]: /list: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /locate: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /locatebiome: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /loot: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /me: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /minecraft:kill: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /minecraft:msg: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /minecraft:team: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /minecraft:teleport: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /minecraft:time: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /minecraft:tp: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /minecraft:w: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /minecraft:weather: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /msg: Send a message.
-[02:36:50] [Server thread/INFO]: /op: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /pardon: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /particle: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /playsound: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
-[02:36:50] [Server thread/INFO]: /ptime: Changing player time.
-[02:36:50] [Server thread/INFO]: /pweather: Changing player weather.
-[02:36:50] [Server thread/INFO]: /r: Replies to the message.
-[02:36:50] [Server thread/INFO]: /randomtp: Teleports the player to a random location!
-[02:36:50] [Server thread/INFO]: /recipe: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
-[02:36:50] [Server thread/INFO]: /replaceitem: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /restart: Restarts the server
-[02:36:50] [Server thread/INFO]: /rules: Shows rules.
-[02:36:50] [Server thread/INFO]: /save-all: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /save-off: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /save-on: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /say: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /schedule: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /scoreboard: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /seed: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /setblock: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /sethome: Sets a players home at the standing location.
-[02:36:50] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /setmax: Set the max number of homes allowed for a group
-[02:36:50] [Server thread/INFO]: /setwarp: Creating the specified warp.
-[02:36:50] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /shutdown: Shutting the server down in 10 seconds...
-[02:36:50] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /spectate: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /speed: Chaning walking/flying speed.
-[02:36:50] [Server thread/INFO]: /spigot: Spigot related commands
-[02:36:50] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /stop: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /stopsound: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /strike: Strike fury into your enemies with your wand.
-[02:36:50] [Server thread/INFO]: /summon: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /tag: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /team: All commands for teams
-[02:36:50] [Server thread/INFO]: /teamadmin: All admin commands for teams
-[02:36:50] [Server thread/INFO]: /teammsg: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /tell: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /tellraw: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /time: Change server time.
-[02:36:50] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
-[02:36:50] [Server thread/INFO]: /tiny_essentials:tps: View the server TPS.
-[02:36:50] [Server thread/INFO]: /title: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /tm: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /tp: Teleport to a player or teleport the player to you.
-[02:36:50] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
-[02:36:50] [Server thread/INFO]: /treload: Reloads the TinyEssentials plugin!
-[02:36:50] [Server thread/INFO]: /trigger: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /uhome: Allows a player to update their home by home name
-[02:36:50] [Server thread/INFO]: /uhome-of: Gives a player the ability to update any players home
-[02:36:50] [Server thread/INFO]: /unfreeze: Unfreezes the player given in the command after excecution!
-[02:36:50] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
-[02:36:50] [Server thread/INFO]: /warp: Warp command.
-[02:36:50] [Server thread/INFO]: /weather: Change server weather.
-[02:36:50] [Server thread/INFO]: /whitelist: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /worldborder: A Mojang provided command.
-[02:36:50] [Server thread/INFO]: /xp: A Mojang provided command.
-[02:37:04] [Server thread/INFO]: Nothing changed. The player already is an operator
-[02:39:33] [Server thread/INFO]: Stopping server
-[02:39:33] [Server thread/INFO]: [Chiseler-Tool] Disabling Chiseler-Tool v1.0
-[02:39:33] [Server thread/INFO]: [Tiny_Essentials] Disabling Tiny_Essentials v2.2.1
-[02:39:33] [Server thread/INFO]: [SetHomes] Disabling SetHomes v1.3.0
-[02:39:33] [Server thread/INFO]: [BetterTeams] Disabling BetterTeams v4.0.5
-[02:39:33] [Server thread/INFO]: Saving players
-[02:39:33] [Server thread/INFO]: Saving worlds
-[02:39:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bakersland]'/minecraft:overworld
-[02:39:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (Bakersland): All chunks are saved
-[02:39:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bakersland_nether]'/minecraft:the_nether
-[02:39:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:39:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bakersland_the_end]'/minecraft:the_end
-[02:39:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:39:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (Bakersland): All chunks are saved
-[02:39:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:39:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:18:54] [Server thread/WARN]: Legacy plugin Chiseler-Tool v1.0 does not specify an api-version.
+[03:18:54] [Server thread/INFO]: [BetterTeams] Loading BetterTeams v4.0.5
+[03:18:54] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
+[03:18:54] [Server thread/INFO]: [BetterTeams] File is up to date
+[03:18:54] [Server thread/INFO]: [SetHomes] Loading SetHomes v1.3.0
+[03:18:54] [Server thread/INFO]: [Tiny_Essentials] Loading Tiny_Essentials v2.2.1
+[03:18:54] [Server thread/INFO]: [WebConsole] Loading WebConsole v2.2
+[03:18:54] [Server thread/INFO]: [Chiseler-Tool] Loading Chiseler-Tool v1.0
+[03:18:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:18:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:18:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:18:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:18:54] [Server thread/INFO]: Preparing level "Bakersland"
+[03:18:54] [Server thread/INFO]: -------- World Settings For [Bakersland] --------
+[03:18:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:18:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:18:54] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:18:54] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:18:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:18:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:18:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:18:54] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[03:18:54] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[03:18:54] [Server thread/INFO]: Potato Growth Modifier: 100%
+[03:18:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:18:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:18:54] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:18:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:18:54] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[03:18:54] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[03:18:54] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[03:18:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:18:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:18:54] [Server thread/INFO]: Experience Merge Radius: 3.0
+[03:18:54] [Server thread/INFO]: Mob Spawn Range: 6
+[03:18:54] [Server thread/INFO]: Max TNT Explosions: 100
+[03:18:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:18:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:18:54] [Server thread/INFO]: Item Despawn Rate: 6000
+[03:18:54] [Server thread/INFO]: Item Merge Radius: 2.5
+[03:18:54] [Server thread/INFO]: View Distance: 5
+[03:18:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[03:18:54] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:18:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:18:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[03:18:55] [Server thread/INFO]: -------- World Settings For [Bakersland_nether] --------
+[03:18:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:18:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Potato Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:18:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:18:55] [Server thread/INFO]: Experience Merge Radius: 3.0
+[03:18:55] [Server thread/INFO]: Mob Spawn Range: 6
+[03:18:55] [Server thread/INFO]: Max TNT Explosions: 100
+[03:18:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:18:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:18:55] [Server thread/INFO]: Item Despawn Rate: 6000
+[03:18:55] [Server thread/INFO]: Item Merge Radius: 2.5
+[03:18:55] [Server thread/INFO]: View Distance: 5
+[03:18:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[03:18:55] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:18:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:18:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[03:18:55] [Server thread/INFO]: -------- World Settings For [Bakersland_the_end] --------
+[03:18:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:18:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Potato Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[03:18:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:18:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:18:55] [Server thread/INFO]: Experience Merge Radius: 3.0
+[03:18:55] [Server thread/INFO]: Mob Spawn Range: 6
+[03:18:55] [Server thread/INFO]: Max TNT Explosions: 100
+[03:18:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:18:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:18:55] [Server thread/INFO]: Item Despawn Rate: 6000
+[03:18:55] [Server thread/INFO]: Item Merge Radius: 2.5
+[03:18:55] [Server thread/INFO]: View Distance: 5
+[03:18:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[03:18:55] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:18:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:18:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[03:18:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:18:57] [Server thread/INFO]: Preparing spawn area: 0%
+[03:18:57] [Server thread/INFO]: Preparing spawn area: 0%
+[03:18:57] [Server thread/INFO]: Preparing spawn area: 0%
+[03:18:57] [Server thread/INFO]: Preparing spawn area: 0%
+[03:18:57] [Server thread/INFO]: Preparing spawn area: 0%
+[03:18:57] [Server thread/INFO]: Preparing spawn area: 47%
+[03:19:00] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[03:19:00] [Worker-Main-16/INFO]: Preparing spawn area: 83%
+[03:19:00] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[03:19:00] [Worker-Main-16/INFO]: Preparing spawn area: 83%
+[03:19:00] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[03:19:00] [Worker-Main-14/INFO]: Preparing spawn area: 83%
+[03:19:01] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[03:19:01] [Worker-Main-9/INFO]: Preparing spawn area: 85%
+[03:19:02] [Server thread/INFO]: Preparing spawn area: 92%
+[03:19:02] [Server thread/INFO]: Time elapsed: 7388 ms
+[03:19:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:19:03] [Server thread/INFO]: Preparing spawn area: 0%
+[03:19:03] [Worker-Main-13/INFO]: Preparing spawn area: 83%
+[03:19:03] [Worker-Main-14/INFO]: Preparing spawn area: 83%
+[03:19:04] [Worker-Main-16/INFO]: Preparing spawn area: 83%
+[03:19:04] [Worker-Main-9/INFO]: Preparing spawn area: 86%
+[03:19:05] [Worker-Main-15/INFO]: Preparing spawn area: 93%
+[03:19:05] [Server thread/INFO]: Time elapsed: 2780 ms
+[03:19:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:19:05] [Server thread/INFO]: Preparing spawn area: 0%
+[03:19:05] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[03:19:06] [Server thread/INFO]: Time elapsed: 694 ms
+[03:19:06] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.0.5
+[03:19:06] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
+[03:19:06] [Server thread/INFO]: [BetterTeams] File is up to date
+[03:19:06] [Server thread/INFO]: Display team name config value: prefix
+[03:19:06] [Server thread/INFO]: Loading below name. Type: PREFIX
+[03:19:06] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@2dc4fe53
+[03:19:06] [Server thread/INFO]: [SetHomes] Enabling SetHomes v1.3.0
+[03:19:06] [Server thread/INFO]: [SetHomes] Luck perms was not found! Reverting to vault...
+[03:19:06] [Server thread/INFO]: [SetHomes] Vault was not found.
+[03:19:06] [Server thread/WARN]: [SetHomes] Could not connect to a permissions plugin! Config setting "max-homes" will be ignored!
+[03:19:06] [Server thread/INFO]: [Tiny_Essentials] Enabling Tiny_Essentials v2.2.1
+[03:19:06] [Server thread/INFO]: [Tiny_Essentials] Color:[rgb0x0800]TinyEssentials is created by Inwin1. Thank you for using my plugin, and enjoy :)
+[03:19:06] [Server thread/INFO]: [WebConsole] Enabling WebConsole v2.2
+[03:19:06] [Server thread/INFO]: [Chiseler-Tool] Enabling Chiseler-Tool v1.0
+[03:19:06] [WebSocketSelector-65/INFO]: [WebConsole] WebSocket Server started successfully.
+[03:19:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:19:06] [Server thread/INFO]: Done (11.817s)! For help, type "help"
+[03:19:06] [Server thread/INFO]: Nothing changed. The player already is an operator
+[03:19:13] [Server thread/INFO]: Nothing changed. The player already is an operator
+[03:19:18] [Server thread/INFO]: Incorrect argument for command
+[03:19:18] [Server thread/INFO]: op shift 4<--[HERE]
+[03:19:23] [Server thread/INFO]: Incorrect argument for command
+[03:19:23] [Server thread/INFO]: gamemode 1<--[HERE]
+[03:19:25] [Server thread/INFO]: Incorrect argument for command
+[03:19:25] [Server thread/INFO]: gamemode 0<--[HERE]
+[03:19:31] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[03:19:37] [Server thread/INFO]: Made shift no longer a server operator
+[03:19:40] [Server thread/INFO]: Made shift a server operator
+[03:19:47] [Server thread/INFO]: Stopping server
+[03:19:47] [Server thread/INFO]: [Chiseler-Tool] Disabling Chiseler-Tool v1.0
+[03:19:47] [Server thread/INFO]: [WebConsole] Disabling WebConsole v2.2
+[03:19:47] [Server thread/INFO]: [Tiny_Essentials] Disabling Tiny_Essentials v2.2.1
+[03:19:47] [Server thread/INFO]: [SetHomes] Disabling SetHomes v1.3.0
+[03:19:47] [Server thread/INFO]: [BetterTeams] Disabling BetterTeams v4.0.5
+[03:19:47] [Server thread/INFO]: Saving players
+[03:19:47] [Server thread/INFO]: Saving worlds
+[03:19:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bakersland]'/minecraft:overworld
+[03:19:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (Bakersland): All chunks are saved
+[03:19:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bakersland_nether]'/minecraft:the_nether
+[03:19:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:19:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bakersland_the_end]'/minecraft:the_end
+[03:19:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:19:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (Bakersland): All chunks are saved
+[03:19:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:19:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

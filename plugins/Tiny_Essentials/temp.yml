@@ -1,0 +1,262 @@
+# The configuration for the plugin TinyEssentials, created by Inwin1
+# Thank you for downloading, and enjoy the plugin :)
+# If you experience issues/have suggestions or need help, be sure to check out the offical website for the plugin
+# Website: https://tinyessentials.inwin1designs.com/
+
+
+############################################
+##                                        ##
+##       CUSTOM MESSAGES FOR EVENTS       ##
+##                                        ##
+############################################
+
+####### PLACEHOLDERS #######
+  # <player> - Username of the player
+  # <space> - Used to create a space in the text/message
+  # <killer>
+##### ################ #####
+
+
+# Join message - Message for newly joined players
+firstJoin_message: '&a<player> &7Has joined the server for the first time!'
+
+# Join message - Message for players who have joined the server more than once
+join_message: '&e<player> has joined the server'
+
+# Leave message - Message when the player leaves the server!
+leave_message: 'Say goodbye to &c<player>, he is leaving us!'
+
+# MOTD - Private join message for the player, you can use <player> for players username and <space> for a "jump" in the text
+MOTD: '&e&m           &r<space><space>&e&lWelcome <player><space>&r&eWebsite: https://example.com/<space><space>&m           &r<space>'
+
+# Death message - Two players in combat
+death_message: '&c<killer> &edestroyed &c<player> &ein combat'
+
+# Death message - Player kills himself
+death_message_suicide: '&c<player> &ekilled himself!'
+
+
+
+
+
+############################################
+##                                        ##
+##      CUSTOM MESSAGES FOR COMMANDS      ##
+##                                        ##
+############################################
+
+####### PLACEHOLDERS #######
+  # <player> - Username of the player
+  # <message> - A message generated/sent
+  # <to_player> - The to player
+  # <from_player> - The from player
+  # <speed> - The speed specified in command
+  # <player_one> - First player/player one
+  # <player_two> - Second player/player two
+  # <time> - Time in the given context
+  # <warp> - The name of the warp
+  # <blockid> - The ID of the block
+##### ################ #####
+
+# Custom Enderchest message
+enderchest_message: '&dOpening the enderchest!'
+
+# Custom Clearinventory message - Yourself
+clear_your_inventory_message: '&cClearing your inventory!'
+
+# Custom Clearinventory message - Others
+clear_others_inventory_message: '&cClearing <player>`s inventory!'
+
+# Custom Feed message
+feed_message: '&6Nam nam, you are no longer hungry!'
+
+# Custom Feed message
+feed_message_other: '&aThe player has been successfully feeded!'
+
+# Custom Fly message - On
+fly_on_message: '&eTurning on flying!'
+
+# Custom Fly message - Off
+fly_off_message: '&eTurning off flying!'
+
+# Custom Gamemode message - Choose gamemode when /gm
+gm_choose_message: '&cYou need to choose a gamemode!'
+
+# Custom Gamemode message - Creative gamemode
+gm_creative_message: '&eTurning on creative gamemode!'
+
+# Custom Gamemode message - Creative gamemode
+gm_survival_message: '&eTurning on survival gamemode!'
+
+# Custom Gamemode message - Creative gamemode
+gm_spectator_message: '&eTurning on spectator gamemode!'
+
+# Custom Heal message
+heal_message: '&aYou are now healed!'
+
+# Custom Heal message - Others
+heal_message_other: '&aThe player has been successfully healed!'
+
+# Custom Kill message - Yourself
+killing_yourself_message: '&cKilling yourself!'
+
+# Custom Kill message - Others
+killing_others_message: '&cKilling <player>!'
+
+# Custom MSG message - What the sender gets:
+MSG_sender_message: '&eYou sent » <message> to &e&l<to_player>'
+
+# Custom MSG message - What the reciever gets:
+MSG_reciever_message: '&e&l<from_player>&r&e messaged you » <message>'
+
+# Custom Reply message - What the sender gets
+reply_sender_message: '&eYou replied with » <message> to &e&l<to_player>'
+
+# Custom Reply message - What the reciever gets
+reply_reciever_message: '&e&l<from_player> &r&e replied you with » <message>'
+
+# Custom Speed message - flying
+speed_fly_message: '&eChanging your flying speed to <speed>'
+
+# Custom Speed message - Walking
+speed_walking_message: '&eChanging your walking speed to <speed>'
+
+# Force Teleportation message - Teleport to you
+forceTP_you_message: '&eTeleporting you to <to_player>'
+
+# Force Teleportation message - Teleporting others
+forceTP_others_message: '&eTeleporting <player_one> to <player_two>'
+
+# Server Time message - Choose time
+time_choose_message: '&cYou need to choose a time! (day or night)'
+
+# Server Time message - Day
+time_day_message: '&eChanging server time to day!'
+
+# Server Time message - Night
+time_night_message: '&eChanging server time to night!'
+
+# Player Time message - Choose time
+ptime_choose_message: '&cYou need to choose a time! (day, night or reset)'
+
+# Player Time message - Day
+ptime_day_message: '&eChanging your player time to day!'
+
+# Player Time message - Night
+ptime_night_message: '&eChanging your player time to night!'
+
+# Player Time message - Reset
+ptime_reset_message: '&eReseting your player time!'
+
+# Server Weather message - Choose time
+weather_choose_message: '&cYou need to choose a weather type! (clear or rain)'
+
+# Server Weather message - Clear
+weather_clear_message: '&eChanging server weather to clear!'
+
+# Server Weather message - Night
+weather_rainy_message: '&eChanging server weather to rainy!'
+
+# Player Weather message - Choose weather
+pweather_choose_message: '&cYou need to choose a weather type! (clear, rain or reset)'
+
+# Player Weather message - Clear
+pweather_clear_message: '&eChanging player weather to clear!'
+
+# Player Weather message - Rainy
+pweather_rainy_message: '&eChanging player weather to rainy!'
+
+# Player Weather message - Reset
+pweather_reset_message: '&eReseting your player weather!'
+
+# Broadcast message - Specify message
+broadcast_specify_message: '&ePlease specify a message after /broadcast'
+
+# Broadcast message - Specify message
+broadcast_message: '&e&lBROADCAST: &e<message>'
+
+# Rules - Main message
+rules_main_message: '&e&lHere you can view all our Rules.'
+
+# Rules - The rules (REMEMBER: to add two backslashes right beside eachother (//) after each rule, so that the rules get displayed correct!
+rules_list_message: '&e- Do not hack//&e- Do not swear//&a- Play nice//&e- Rules #4//&c- Rules #5'
+
+# Shutdown - Shutdown now main message
+shutdown_message_now: '&c&lShuting the server down now!'
+
+# Shutdown - Shutdown main message
+shutdown_message: '&c&lShuting the server down in 10 seconds'
+
+# Shutdown - Shutdown #3 message
+shutdown_message_3: '&c&lShuting the server down in 3 seconds'
+
+# Shutdown - Shutdown #2 message
+shutdown_message_2: '&c&lShuting the server down in 2 seconds'
+
+# Shutdown - Shutdown #1 message
+shutdown_message_1: '&c&lShuting the server down in 1 seconds'
+
+# Shutdown - Shutdown #0 message
+shutdown_message_0: '&c&lShutting down...'
+
+# Reload - Reload start
+reload_start: '&cStarting the reload of the TinyEssentials plugin!'
+
+# Reload - Reload finished
+reload_finished: '&aFinished the reload of the TinyEssentials plugin!'
+
+# Warp - Teleportation duration, if you put for example 3 it would be mean 3 seconds!
+warp_tp_time: 3
+
+# RandomTeleport - Cooldown (in seconds)
+RTP_cooldown: 120
+
+# RandomTeleport - Range (Example, if you put 3000, the random teleport would generate a random location between x<3000 and y<3000)
+RTPRange: 3000
+
+# RandomTeleport - Cooldown waiting message
+RTP_waiting_message: '&cPlease wait <cooldown> seconds before using the command again'
+
+# RandomTeleport - Teleport message
+RTP_message: '&aTeleporting you to a random location in the world!'
+
+# Warp - The wait message when trying to teleport
+warp_tp_message: '&aTeleported you to the <warp> warp'
+
+# Warp - The wait message when trying to teleport
+warp_tp_message_wait: '&aTeleporting you in <time> seconds! Do not move!'
+
+# Warp - Teleportation ended/failed due to moving message
+warp_tp_moved: '&cYou moved, and the teleportation ended!'
+
+# Warp - Warp does not exist message
+warp_not_exist: '&cThe warp does not exist! Check the warps with /warp'
+
+# Warp - Create new warp
+warp_create: '&aThe warp <warp> is now created!'
+
+# Warp - Create error
+warp_create_error: '&cThe warp already exists!'
+
+# Warp - Delete a warp
+warp_delete: '&cThe warp <warp> is now deleted!'
+
+# Warp - Delete error
+warp_delete_error: '&CYou can not delete a warp that does not exist!'
+
+# Freeze - Freeze error
+freeze_select_message: '&cPlease specify a player name after the /freeze command!'
+
+# Freeze - Success
+freeze_message: '&aThe player <player> has been successfully freezed, and cannot walk!'
+
+# Unfreeze - Unfreeze error
+unfreeze_select_message: '&cPlease specify a player name after the /unfreeze command!'
+
+# Unfreeze - Success
+unfreeze_message: '&aThe player <player> has been successfully unfreezed, and can walk again!'
+
+
+
+
+
