@@ -29,7 +29,7 @@ while True:
 print("**script**: server has started!")
 time.sleep(10)
 print("**script**: starting ngrok tcp")
-os.system('ngrok tcp -region us 24454 &')
+os.system('ngrok tcp -region us 25565 &')
 time.sleep(10)
 
 while True:
