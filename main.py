@@ -30,6 +30,7 @@ print("**script**: server has started!")
 time.sleep(10)
 print("**script**: starting ngrok tcp")
 os.system('ngrok tcp -region us 25565 &')
+os.system('ngrok http -region us 8080 &')
 time.sleep(10)
 
 while True:
