@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "7026c23a-146f-384f-8882-a4ad71624cab",
+    "name": "shift",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "b6e5f65a-35fd-4768-b8ad-aaa1bb5269be",
     "name": "shift",
     "level": 4,
